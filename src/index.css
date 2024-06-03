@@ -19,3 +19,8 @@ code {
   background: linear-gradient(180deg, #F8D12F 0%, #F0B90B 100%);
 
 }
+.bg-about{
+  background-image: url('../public/Section.png');
+  height: 65vh;
+  background-size: cover;
+}

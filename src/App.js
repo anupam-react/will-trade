@@ -3,6 +3,9 @@ import "./App.css";
 import LogLayout from "./utils/LogLayout";
 import Login from "./components/Login";
 import Register from "./components/Register";
+import Layout from "./utils/Layout";
+import Home from "./components/Home";
+// import About from "./components/About";
 
 function App() {
   return (
@@ -10,7 +13,11 @@ function App() {
       <Routes>
          <Route element={<LogLayout />}>
            <Route path="/login" element={<Login />} />
-           <Route path="/" element={<Register />} />
+           <Route path="/register" element={<Register />} />
+           </Route>
+         <Route element={<Layout />}>
+           <Route path="/" element={<Home />} />
+           {/* <Route path="/about" element={<About />} /> */}
            </Route>
       </Routes>
     </div>

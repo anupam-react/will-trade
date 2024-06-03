@@ -1,17 +1,16 @@
 // Layout.js
 import React from "react";
-import Sidebar from "./components/common/Sidebar";
-import Navbar from "./components/common/Navbar";
+import Footer from "../components/common/Footer";
+import NavbarHome from "../components/common/NavbarHome";
+import { Outlet } from "react-router-dom";
 
-const Layout = ({ children }) => {
+const Layout = () => {
   return (
-    <div className="flex gap-8">
-      <Sidebar />
-      <div className="mt-4 flex-1 mr-4">
-        <Navbar />
-        <div className="m-4">{children}</div>
-      </div>
-    </div>
+    <div className="">
+    <NavbarHome />
+    <div className=""><Outlet /></div>
+    <Footer />
+</div>
   );
 };
 

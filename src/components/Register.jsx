@@ -1,6 +1,8 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const Register = () => {
+    const navigate = useNavigate()
   return (
     <div className='flex justify-center items-center h-[100%] py-[100px] bg-[#E9E9E9]'>
         <div>
@@ -26,7 +28,7 @@ const Register = () => {
                 </span></p>
             </div>
         <button className='bg-[#DADADA] text-[#909090] text-[24px] w-full mt-4 py-3 rounded-2xl'>Create Account</button>
-        <p className='text-center pt-4'>Already have an account? <span  className='text-[#F0B90B] cursor-pointer'>Log In</span></p>
+        <p className='text-center pt-4'>Already have an account? <span  className='text-[#F0B90B] cursor-pointer' onClick={()=> navigate('/login')}>Log In</span></p>
         </div>
 
         </div>
