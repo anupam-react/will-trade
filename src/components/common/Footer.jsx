@@ -1,6 +1,8 @@
 import React from 'react'
 import '../../index.css'
+import { useNavigate } from 'react-router-dom'
 const Footer = () => {
+    const navigate = useNavigate()
   return (
     <div className='bg-[#0B0E11] pt-[50px]'>
         <div className='px-[10vw]'>
@@ -9,7 +11,7 @@ const Footer = () => {
                 <div>
                 <p className='text-white font-bold text-[17px] pb-4'>Company</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Trust</p>
-                    <p className='text-[#848E9C] text-[14px] pb-2'>About US</p>
+                    <p className='text-[#848E9C] text-[14px] pb-2 cursor-pointer' onClick={()=> navigate('/about')}>About US</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Blog</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Announcements</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Licenses</p>
@@ -25,7 +27,7 @@ const Footer = () => {
                 </div>
                 <div>
                 <p className='text-white font-bold text-[17px] pb-4'>Products</p>
-                    <p className='text-[#848E9C] text-[14px] pb-2'>Buy & Sell</p>
+                    <p className='text-[#848E9C] text-[14px] pb-2 cursor-pointer' onClick={()=> navigate('/sell')}>Buy & Sell</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Convert</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Spot Trading</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>OTC</p>

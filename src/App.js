@@ -5,7 +5,8 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import Layout from "./utils/Layout";
 import Home from "./components/Home";
-// import About from "./components/About";
+import About from "./components/About";
+import BuySell from "./components/BuySell";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
            </Route>
          <Route element={<Layout />}>
            <Route path="/" element={<Home />} />
-           {/* <Route path="/about" element={<About />} /> */}
+           <Route path="/about" element={<About />} />
+           <Route path="/sell" element={<BuySell />} />
            </Route>
       </Routes>
     </div>
