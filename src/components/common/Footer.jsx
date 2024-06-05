@@ -30,8 +30,8 @@ const Footer = () => {
                     <p className='text-[#848E9C] text-[14px] pb-2 cursor-pointer' onClick={()=> navigate('/sell')}>Buy & Sell</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Convert</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Spot Trading</p>
-                    <p className='text-[#848E9C] text-[14px] pb-2'>OTC</p>
-                    <p className='text-[#848E9C] text-[14px] pb-2'>Staking</p>
+                    <p className='text-[#848E9C] text-[14px] pb-2 cursor-pointer' onClick={()=> navigate('/otc')}>OTC</p>
+                    <p className='text-[#848E9C] text-[14px] pb-2 cursor-pointer' onClick={()=> navigate('/staking')}>Staking</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Pay</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Institutions</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Crypto Domains</p>

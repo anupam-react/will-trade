@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 
-const Accordion = ({ items }) => {
+const Accordion2 = ({ items }) => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const handleItemClick = (index) => {
@@ -15,17 +15,16 @@ const Accordion = ({ items }) => {
         <div className='mb-4' key={index}>
 
         <div
-          
           className='flex justify-between'
         >
-            <p className='text-white text-[19px] font-bold w-[400px]'>
+            <p className='text-[#2B2F36] text-[19px] font-bold w-[400px]'>
             {item.title}
             </p>
           <div
             className=" text-left font-semibold cursor-pointer"
             onClick={() => handleItemClick(index)}
           >
-          <img src="../SVG (16).png" alt="" className='h-[20px] w-[20px]'/>
+          <img src="../SVG (18).png" alt="" className='h-[20px] w-[20px]'/>
           </div>
         </div>
         <hr className='my-2'/>
@@ -36,4 +35,4 @@ const Accordion = ({ items }) => {
   );
 };
 
-export default Accordion;
+export default Accordion2;

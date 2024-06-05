@@ -65,7 +65,7 @@ const BuySell = () => {
             </button>
           </div>
         </div>
-        <div className="flex justify-center items-center text-center gap-[100px] py-10">
+        <div className="flex flex-col lg:flex-row justify-center items-center text-center gap-[100px] my-[100px] lg:my-10">
           <div>
             <p className="text-[48px] text-white font-bold ">0%</p>
             <p className="text-[24px] text-white ">Bitcoin Trading Fee*</p>
@@ -87,7 +87,7 @@ const BuySell = () => {
           <img src="../coins_large_v4.png.png" alt="" />
         </div>
         <div className="bg-white mx-[10vw] rounded-md py-[30px] px-[50px] transform  translate-y-[300px] -mt-[300px]">
-          <div className="flex justify-between gap-6">
+          <div className="flex flex-col lg:flex-row justify-between gap-6">
             <table>
               <tr className="text-[#848E9C] font-[400]">
                 <td className="pr-8">#</td>
@@ -342,7 +342,7 @@ const BuySell = () => {
         </div>
       </div>
       <div className="bg-[#F5F5F5] pt-[300px] pb-[200px]">
-        <div className="flex justify-center gap-8 py-6">
+        <div className="flex flex-col lg:flex-row justify-center gap-8 py-6">
           <div className="w-[500px] flex flex-col gap-6">
             <div className="flex items-center gap-4 ">
               <img src="../SVG (10).png" alt="" />
@@ -388,7 +388,7 @@ const BuySell = () => {
           <p className="text-[#0B0E11] text-[45px] font-bold text-center w-[70vw]">
             Start Buying, Selling & Trading Crypto in as Little as 2 Minutes
           </p>
-          <div className="flex gap-6 lg:w-[80vw] py-10">
+          <div className="flex flex-col lg:flex-row gap-6 lg:w-[80vw] py-10">
             <div className="flex flex-col justify-center items-center text-center">
               <img src="../SVG (13).png" alt="" className="w-[80px] h-[80px]" />
               <p className="text-[#0B0E11] font-bold text-[24px]">
@@ -425,7 +425,7 @@ const BuySell = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#0B0E11] text-white pt-[50px] pb-[200px] flex gap-[200px] items-center justify-center " >
+      <div className="bg-[#0B0E11] text-white pt-[50px] pb-[200px] flex flex-col lg:flex-row gap-[200px] justify-center " >
         <div className="text-[38px] font-bold w-[400px]">Frequently Asked
 Questions</div>
         <div>

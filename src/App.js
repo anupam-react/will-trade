@@ -7,6 +7,9 @@ import Layout from "./utils/Layout";
 import Home from "./components/Home";
 import About from "./components/About";
 import BuySell from "./components/BuySell";
+import Staking from "./components/Staking";
+import Convert from "./components/Convert";
+import OTC from "./components/OTC";
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
            <Route path="/" element={<Home />} />
            <Route path="/about" element={<About />} />
            <Route path="/sell" element={<BuySell />} />
+           <Route path="/staking" element={<Staking />} />
+           <Route path="/convert" element={<Convert />} />
+           <Route path="/otc" element={<OTC />} />
            </Route>
       </Routes>
     </div>

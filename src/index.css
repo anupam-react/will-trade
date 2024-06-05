@@ -29,3 +29,14 @@ code {
   height: 100vh;
   background-size: cover;
 }
+.bg-staking{
+  background-image: url('../public/Section\(1\).png');
+  height: 100vh;
+  background-size: cover;
+}
+.bg-convert{
+  background-image: url('../public/converter_bg.svg\ fill.png');
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+}
