@@ -19,7 +19,7 @@ const Footer = () => {
                     <p className='text-[#848E9C] text-[14px] pb-2'>Terms of Use</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Privacy Policy</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Cookie Policy</p>
-                    <p className='text-[#848E9C] text-[14px] pb-2'>Law Enforcement <p>Guide</p> </p>
+                    <p className='text-[#848E9C] text-[14px] pb-2 cursor-pointer' onClick={()=> navigate('/law')}>Law Enforcement <p>Guide</p> </p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Do Not Sell My
                     <p>Personal</p>
                     Information
@@ -39,7 +39,7 @@ const Footer = () => {
                 </div>
                 <div>
                 <p className='text-white font-bold text-[17px] pb-4'>Support</p>
-                    <p className='text-[#848E9C] text-[14px] pb-2'>Help Center</p>
+                    <p className='text-[#848E9C] text-[14px] pb-2 cursor-pointer' onClick={()=> navigate('/support')}>Help Center</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Tax</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Fees</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Trading Rules</p>

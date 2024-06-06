@@ -14,7 +14,7 @@ const NavbarHome = () => {
           <p className="text-[#F0B90B] text-[24px] font-[500]">Will Trade</p>
         </div>
         <div className="flex items-center gap-6">
-          <p className="text-[#EAECEF] font-[14px] cursor-pointer">Markets</p>
+          <p className="text-[#EAECEF] font-[14px] cursor-pointer" onClick={()=>navigate('/markets')}>Markets</p>
           <p className="text-[#EAECEF] font-[14px] cursor-pointer">Trade</p>
           <div className="flex items-center gap-2 text-[#EAECEF] font-[14px] cursor-pointer" onClick={()=> setOpenFeature(!openFeature)}>
             <p>Futures</p>

@@ -21,7 +21,7 @@ code {
 }
 .bg-about{
   background-image: url('../public/Section.png');
-  height: 65vh;
+  height: 70vh;
   background-size: cover;
 }
 .bg-sell{
@@ -38,5 +38,16 @@ code {
   background-image: url('../public/converter_bg.svg\ fill.png');
   height: 500px;
   width: 500px;
+  background-size: cover;
+}
+.bg-law{
+
+  background-image: url('../public/Section\ \(3\).png');
+  height: 70vh;
+  background-size: cover;
+}
+.bg-support{
+  background-image: url('../public/Section\ \(2\).png');
+  height: 70vh;
   background-size: cover;
 }

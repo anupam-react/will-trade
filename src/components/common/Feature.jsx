@@ -13,7 +13,7 @@ const Feature = () => {
                     <p className='text-[14px] pt-6'>TEXT</p>
                 </div>
             </div>
-            <div className='flex gap-6 border border-[#000000] rounded-[30px] px-6 py-2 w-[350px] h-[144px] cursor-pointer'>
+            <div onClick={()=> navigate('/trading')} className='flex gap-6 border border-[#000000] rounded-[30px] px-6 py-2 w-[350px] h-[144px] cursor-pointer'>
                 <img src="../SVG (17).png" alt="" className='w-[65px] h-[65px]' />
                 <div>
                     <p className='text-[32px] font-[500]'>Spot Trading</p>

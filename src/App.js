@@ -10,6 +10,10 @@ import BuySell from "./components/BuySell";
 import Staking from "./components/Staking";
 import Convert from "./components/Convert";
 import OTC from "./components/OTC";
+import TradingChart from "./components/TradingChart";
+import Markets from "./components/Markets";
+import Law from "./components/Law";
+import Support from "./components/Support";
 
 function App() {
   return (
@@ -18,7 +22,7 @@ function App() {
          <Route element={<LogLayout />}>
            <Route path="/login" element={<Login />} />
            <Route path="/register" element={<Register />} />
-           </Route>
+          </Route>
          <Route element={<Layout />}>
            <Route path="/" element={<Home />} />
            <Route path="/about" element={<About />} />
@@ -26,6 +30,10 @@ function App() {
            <Route path="/staking" element={<Staking />} />
            <Route path="/convert" element={<Convert />} />
            <Route path="/otc" element={<OTC />} />
+           <Route path="/trading" element={<TradingChart />} />
+           <Route path="/markets" element={<Markets />} />
+           <Route path="/law" element={<Law />} />
+           <Route path="/support" element={<Support />} />
            </Route>
       </Routes>
     </div>
