@@ -14,6 +14,10 @@ import TradingChart from "./components/TradingChart";
 import Markets from "./components/Markets";
 import Law from "./components/Law";
 import Support from "./components/Support";
+import Rules from "./components/Rules";
+import TermsOfUse from "./components/TermsOfUse";
+import Privacy from "./components/Privacy";
+import Cookie from "./components/Cookie";
 
 function App() {
   return (
@@ -34,6 +38,10 @@ function App() {
            <Route path="/markets" element={<Markets />} />
            <Route path="/law" element={<Law />} />
            <Route path="/support" element={<Support />} />
+           <Route path="/rules" element={<Rules />} />
+           <Route path="/terms" element={<TermsOfUse />} />
+           <Route path="/privacy" element={<Privacy />} />
+           <Route path="/cookie" element={<Cookie />} />
            </Route>
       </Routes>
     </div>

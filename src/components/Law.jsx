@@ -16,14 +16,14 @@ const Law = () => {
         </p>
 
         <p className="py-[40px] text-[28px]">Head Line 2</p>
-        <p>
+        <p className='text-[14px]'>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s Lorem Ipsum is simply dummy text of the printing and
           typesetting industry. Lorem Ipsum has been the industry's standard
           dummy text ever since the 1500s
         </p>
-        <p className="py-[40px]">
+        <p className="py-[40px] text-[14px]">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s Lorem Ipsum is simply dummy text of the printing and
@@ -31,12 +31,20 @@ const Law = () => {
           dummy text ever since the 1500s
         </p>
         <p className="pb-[50px] text-[28px]">Head Line 2</p>
-        <button className=" bg-[#F0B90B] shadow shadow-[#FFFFFF40] px-8 py-3 rounded-md">
-          <p className="text-[#1E2026] font-semibold text-[15px]">
-            See Careers
-          </p>
-        </button>
-        <p className="py-[30px]">Lorem Ipsum is simply dummy text of the </p>
+        <p className='text-[14px] '>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s Lorem Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s
+        </p>
+        <p className="py-[40px] text-[14px]">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s Lorem Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s
+        </p>
       </div>  
     </div>
   )

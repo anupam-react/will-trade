@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 const Footer = () => {
     const navigate = useNavigate()
   return (
-    <div className='bg-[#0B0E11] pt-[50px]'>
+    <div className='bg-[#0B0E11] pt-[50px] z-999'>
         <div className='px-[10vw]'>
         <div className='flex flex-col lg:flex-row justify-between gap-4 pb-5'>
             <div className='flex gap-[5vw]'>
@@ -16,9 +16,9 @@ const Footer = () => {
                     <p className='text-[#848E9C] text-[14px] pb-2'>Announcements</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Licenses</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Careers</p>
-                    <p className='text-[#848E9C] text-[14px] pb-2'>Terms of Use</p>
-                    <p className='text-[#848E9C] text-[14px] pb-2'>Privacy Policy</p>
-                    <p className='text-[#848E9C] text-[14px] pb-2'>Cookie Policy</p>
+                    <p className='text-[#848E9C] text-[14px] pb-2 cursor-pointer' onClick={()=> navigate('/terms')}>Terms of Use</p>
+                    <p className='text-[#848E9C] text-[14px] pb-2 cursor-pointer' onClick={()=> navigate('/privacy')}>Privacy Policy</p>
+                    <p className='text-[#848E9C] text-[14px] pb-2 cursor-pointer' onClick={()=> navigate('/cookie')}>Cookie Policy</p>
                     <p className='text-[#848E9C] text-[14px] pb-2 cursor-pointer' onClick={()=> navigate('/law')}>Law Enforcement <p>Guide</p> </p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Do Not Sell My
                     <p>Personal</p>
@@ -42,7 +42,7 @@ const Footer = () => {
                     <p className='text-[#848E9C] text-[14px] pb-2 cursor-pointer' onClick={()=> navigate('/support')}>Help Center</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Tax</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Fees</p>
-                    <p className='text-[#848E9C] text-[14px] pb-2'>Trading Rules</p>
+                    <p className='text-[#848E9C] text-[14px] pb-2 cursor-pointer' onClick={()=> navigate('/rules')}>Trading Rules</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Trade Limits</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Listing on</p>
                     <p className='text-[#848E9C] text-[14px] pb-2'>Willtrade.com</p>
